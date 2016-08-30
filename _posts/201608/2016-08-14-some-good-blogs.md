@@ -7,8 +7,10 @@ discription: 收藏学习生活中比较好的主页
 
 ### 博客
 
-1. [IVAN RISTIC](https://blog.ivanristic.com/)
+1. Software engineer and applicationi security research by [IVAN RISTIC](https://blog.ivanristic.com/)
 
 2. [阮一峰](http://www.ruanyifeng.com/blog/)
 
-3. [Santiago L. Valdarrama](http://www.shiftedup.com/archive)
+3. About Software engineering by [Santiago L. Valdarrama](http://www.shiftedup.com/archive)
+
+4. Some random thoughts about crypto by [Matthew Green](http://blog.cryptographyengineering.com/2016_08_01_archive.html)

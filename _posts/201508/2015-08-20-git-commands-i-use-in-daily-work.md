@@ -86,6 +86,11 @@ git push origin branchName
 git push origin --delete temp // temp为分支名
 ```
 
+<table align="center">
+<tr><td><img alt="gitdiff" src="http://1.lpxq.sinaapp.com/images/201508/20150820pic1.png"></td></tr>
+<tr><td>git diff</td></tr>
+</table>
+
 这有关于[Git flow分支管理]的文章，有兴趣可以看看。
 
 #### 5. git pull
