@@ -14,3 +14,5 @@ discription: 收藏学习生活中比较好的主页
 3. About Software engineering by [Santiago L. Valdarrama](http://www.shiftedup.com/archive)
 
 4. Some random thoughts about crypto by [Matthew Green](http://blog.cryptographyengineering.com/2016_08_01_archive.html)
+
+5. [面试精选：链表问题集锦](http://wuchong.me/blog/2014/03/25/interview-link-questions/)
