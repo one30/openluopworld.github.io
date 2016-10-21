@@ -16,3 +16,5 @@ discription: 收藏学习生活中比较好的主页
 4. Some random thoughts about crypto by [Matthew Green](http://blog.cryptographyengineering.com/2016_08_01_archive.html)
 
 5. [Hartley Brody](https://blog.hartleybrody.com/)
+
+6. [C++ Reference](http://en.cppreference.com/w/cpp)
