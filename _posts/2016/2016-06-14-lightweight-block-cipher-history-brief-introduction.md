@@ -2,7 +2,7 @@
 layout: post
 title: Lightweight block cipher history
 date: 2016.06.14
-discription: 常见轻量级分组密码算法简介
+discription: A Brief Introduction to Some Lightweight Block Ciphers
 ---
 
 # Basic Info of Some Block Ciphers
@@ -67,3 +67,5 @@ discription: 常见轻量级分组密码算法简介
   [RECTANGLE]: <https://eprint.iacr.org/2014/084.pdf>
   [RoadRunneR]: <http://dx.doi.org/10.1007/978-3-319-29078-2_4>
   [SIMECK]: <https://eprint.iacr.org/2015/612>
+  [Fantomas]: <http://dx.doi.org/10.1007/978-3-662-46706-0_2>
+  [Robin]: <http://dx.doi.org/10.1007/978-3-662-46706-0_2>
