@@ -36,7 +36,7 @@ discription: 常见轻量级分组密码算法简介
 |[RoadRunneR]| 64         | 80<br>128|      Adnan Baysal et al.       | 10<br>12      |            |  Feistel  |  LightSec'15 |
 | [SIMECK]   |32<br>48<br>64 | 64<br>96<br>128 | Gangqiang Yang et al.|32<br>36<br>44 |   No       |  Feistel  |  CHES'15     |
 
-<!-- mCrypton, Mysterion, PrintCipher, XTEA, Zorro -->
+<!-- mCrypton, Mysterion, PrintCipher, XTEA, Zorro, MIBS, TEA -->
 * MISTY: Has two different versions MISTY1 and MISTY2.
 * SEA: Has many other versions. A letter in the name of the author is wrong.
 * CLEFIA: Designed by Sony Corperation.
@@ -49,23 +49,21 @@ discription: 常见轻量级分组密码算法简介
   [HIGHT]: <https://www.iacr.org/archive/ches2006/04/04.pdf>
   [SEA]: <http://dx.doi.org/10.1007/11733447_16>
   [CLEFIA]: <http://dx.doi.org/10.1007/978-3-540-74619-5_12>
-  [PRESENT]: <>
-  [KTANTAN]: <>
-  [KATAN]: <>
-  [LBlock]: <>
-  [LED]: <>
-  [Piccolo]: <>
-  [TWINE]: <>
-  [KLEIN]: <>
-  [PRINCE]: <>
-  [LEA]: <>
-  [SIMON]: <>
-  [SPECK]: <>
-  [Chaskey]: <>
-  [Fantomas]: <>
-  [PRIDE]: <>
-  [Robin]: <>
-  [Midori]: <>
-  [RECTANGLE]: <>
-  [RoadRunneR]: <>
-  [SIMECK]: <>
+  [PRESENT]: <https://www.iacr.org/archive/ches2007/47270450/47270450.pdf>
+  [KTANTAN]: <http://dx.doi.org/10.1007/978-3-642-04138-9_20>
+  [KATAN]: <http://dx.doi.org/10.1007/978-3-642-04138-9_20>
+  [LBlock]: <https://eprint.iacr.org/2011/345.pdf>
+  [LED]: <https://eprint.iacr.org/2012/600.pdf>
+  [Piccolo]: <http://www.iacr.org/archive/ches2011/69170343/69170343.pdf>
+  [TWINE]: <http://jpn.nec.com/rd/crl/code/research/image/twine_SAC_full_v5.pdf>
+  [KLEIN]: <http://doc.utwente.nl/73129/1/The_KLEIN_Block_Cipher.pdf>
+  [PRINCE]: <https://eprint.iacr.org/2014/453.pdf>
+  [LEA]: <http://seed.kisa.or.kr/html/egovframework/iwt/ds/ko/ref/LEA%20A%20128-Bit%20Block%20Cipher%20for%20Fast%20Encryption%20on%20Common%20Processors-English.pdf>
+  [SIMON]: <https://eprint.iacr.org/2013/404.pdf>
+  [SPECK]: <https://eprint.iacr.org/2013/404.pdf>
+  [Chaskey]: <https://eprint.iacr.org/2014/386.pdf>
+  [PRIDE]: <https://eprint.iacr.org/2014/453.pdf>
+  [Midori]: <https://eprint.iacr.org/2015/1142.pdf>
+  [RECTANGLE]: <https://eprint.iacr.org/2014/084.pdf>
+  [RoadRunneR]: <http://dx.doi.org/10.1007/978-3-319-29078-2_4>
+  [SIMECK]: <https://eprint.iacr.org/2015/612>
