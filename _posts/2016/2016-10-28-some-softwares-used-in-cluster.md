@@ -14,8 +14,6 @@ discription: 集群中用到的一些软件
 Running a Job on HPC using [PBS]<br>
 
 
-[//]: #
-
   [freeIPA]: <https://www.freeipa.org/page/Main_Page>
 
   [TORQUE]: <http://www.adaptivecomputing.com/products/open-source/torque/>
