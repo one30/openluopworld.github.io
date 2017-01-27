@@ -43,8 +43,6 @@ discription: A Brief Introduction to Some Lightweight Block Ciphers
 * KATAN: A letter in the name of the author is wrong.
 * SIMON and SPECK have many versions. Only the versions with 64-bit block size are given here
 
-[//]: #
-
   [MISTY]: <http://dx.doi.org/10.1007/BFb0052334>
   [HIGHT]: <https://www.iacr.org/archive/ches2006/04/04.pdf>
   [SEA]: <http://dx.doi.org/10.1007/11733447_16>
