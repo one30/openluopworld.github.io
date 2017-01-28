@@ -27,8 +27,8 @@ $ ./getsolution.py rectangle_gc11.eqs > rectangle_gc11.solution
 * JDK，ANFtoCNF的java程序：用于将ANF的格式转化为CNF格式
 * 下载安装[minisat]求解器，[MiniSat在线求解]可以解决一些规模较小的问题，但规模较大时无法解决。
 
-![这里](http://sahandsaba.com/understanding-sat-by-implementing-a-simple-sat-solver-in-python.html)
-![paper](https://ko.stoffelen.nl/papers/fse2016-sboxoptimization.pdf)
-![sboxoptimization](https://github.com/Ko-/sboxoptimization)
-![minisat](https://github.com/niklasso/minisat)
-![MiniSat在线求解](https://www.msoos.org/2013/09/minisat-in-your-browser/)
+[这里]:<http://sahandsaba.com/understanding-sat-by-implementing-a-simple-sat-solver-in-python.html>
+[paper]:<https://ko.stoffelen.nl/papers/fse2016-sboxoptimization.pdf>
+[sboxoptimization]:<https://github.com/Ko-/sboxoptimization>
+[minisat]:<https://github.com/niklasso/minisat>
+[MiniSat在线求解]:<https://www.msoos.org/2013/09/minisat-in-your-browser/>
