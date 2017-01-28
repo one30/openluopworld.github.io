@@ -7,9 +7,7 @@ discription: Git是一个开源的分布式版本控制工具，最初是由Linu
 
 [Git]是一个开源的分布式版本控制工具，最初是由[Linus]在[Linux]的开发过程中为了更好的管理代码而开发。[GitHub]是基于Git实现的一个可视化的管理工具，这篇文章主要记录我在平常工作中用到的一些Git命令。都是非常基础的操作，可以作为一个入门的参考。
 
-<table align="center">
-<tr><td><img alt="Git" src="https://git-scm.com/images/logo@2x.png"></td></tr>
-</table>
+![Git](https://git-scm.com/images/logo@2x.png)
 
 ### 基本操作
 
@@ -86,10 +84,7 @@ git push origin branchName
 git push origin --delete temp // temp为分支名
 ```
 
-<table align="center">
-<tr><td><img alt="gitdiff" src="http://1.lpxq.sinaapp.com/images/201508/20150820pic1.png"></td></tr>
-<tr><td>git diff</td></tr>
-</table>
+![gitdiff](http://1.lpxq.sinaapp.com/images/201508/20150820pic1.png)
 
 这有关于[Git flow分支管理]的文章，有兴趣可以看看。
 
