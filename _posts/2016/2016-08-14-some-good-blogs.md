@@ -5,7 +5,7 @@ date: 2016.08.14
 discription: 收藏学习生活中比较好的主页
 ---
 
-### 博客
+### 收藏学习生活中比较好的博客主页
 
 1. Software engineer and applicationi security research by [IVAN RISTIC](https://blog.ivanristic.com/)
 
