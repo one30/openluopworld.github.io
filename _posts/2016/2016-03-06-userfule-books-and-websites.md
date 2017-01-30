@@ -2,15 +2,10 @@
 layout: post
 title: useful books and websites
 date: 2016.03.06
-discription: 一些游泳的书籍或网址
+discription: 一些有用的书籍或网址
 ---
 
 # Useful Books and Websites
-
-<div id="1"></div>
-## This Month
-[命令行也可以如此活力十足 就是这么酷炫](http://www.linuxstory.org/linux-humor-on-the-command-line)
-[让你的Linux服务器更安全的方法](http://www.linuxstory.org/four-ways-to-make-your-linux-server-more-security/)
 
 <div id="2"></div>
 ## Books
@@ -18,6 +13,9 @@ discription: 一些游泳的书籍或网址
 
 <div id="3"></div>
 ## Websites
+[命令行也可以如此活力十足 就是这么酷炫](http://www.linuxstory.org/linux-humor-on-the-command-line)
+[让你的Linux服务器更安全的方法](http://www.linuxstory.org/four-ways-to-make-your-linux-server-more-security/)
+[面向物联网的几大开源操作系统](https://www.oschina.net/news/79067/opensource-iot-systems?from=20161120)
 
 <div id="3.1"></div>
 ### Programming Language
@@ -43,6 +41,12 @@ discription: 一些游泳的书籍或网址
 [阮一峰的网络日志](http://www.ruanyifeng.com/blog/archives.html)
 [Welcome to Pandora's Box(Why)](http://hustcalm.me/)
 [当然我在扯淡(王垠博客)](http://www.yinwang.org/)
+Software engineer and applicationi security research by [IVAN RISTIC](https://blog.ivanristic.com/)
+About Software engineering by [Santiago L. Valdarrama](http://www.shiftedup.com/archive)
+Some random thoughts about crypto by [Matthew Green](http://blog.cryptographyengineering.com/2016_08_01_archive.html)
+[Hartley Brody](https://blog.hartleybrody.com/)
+[C++ Reference](http://en.cppreference.com/w/cpp)
+
 
 <div id="3.6"></div>
 ### Open Source
