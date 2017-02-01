@@ -65,23 +65,33 @@ git diff versionId
 
 对于系统S的模块A和B，比如需要对模块A进行修改（比如增加功能，或尝试另一种方法优化目前可以运行的代码），而同时模块B仍继续开发。可以在T节点（某个时刻）创建一个新的分支单独对A进行修改，当修改成功后再将A合并到主分支。一般情况下，如果模块划分的足够好，自T节点之后主分支不会对A进行修改，因此当合并时不会有冲突。如果有冲突手动解决就好了。
 
+* 在当前分之的基础上创建新分支，分支名为branchName，新分支创建后内容会从当前分支复制一份。
 ```sh
-// 在当前分之的基础上创建新分支，分支名为branchName，新分支创建后内容会从当前分支复制一份。
 git branch branchName
-
-// 在切换分支之前先查看当前所处分支
+```
+* 在切换分支之前先查看当前所处分支
+```sh
 git branch // 查看本地分支
 git branch -r // 查看远程分支
-
-// 切换到本地分支branchName，切换之前先保证本分支的修改都已提交
+```
+* 切换到本地分支branchName，切换之前先保证本分支的修改都已提交
+```sh
 git checkout branchName
-
-// 新创建的分支在第一次提交时，远程是没有的；因次需要通过origin来提交。
-// 在新分支提交成功后即可直接通过git push完成
+```
+* 新创建的分支在第一次提交时，远程是没有的；因次需要通过origin来提交。在新分支提交成功后即可直接通过git push完成
+```sh
 git push origin branchName
-
-// [删除远程分支]：当一个分支temp的功能完成后，通过merge命令将其合并到相应的分支上。这样temp分支即可删除。
+```
+* [删除远程分支]：当一个分支temp的功能完成后，通过merge命令将其合并到相应的分支上。这样temp分支即可删除。
+```sh
 git push origin --delete temp // temp为分支名
+```
+* fork的项目更新源项目的提交
+```sh
+// git remote add origin_name git@github.com:username/projectname
+// git fetch origin_name
+// the two commands are equal to the following command
+git fetch original_project_url
 ```
 
 ![gitdiff](http://1.lpxq.sinaapp.com/images/201508/20150820pic1.png)
