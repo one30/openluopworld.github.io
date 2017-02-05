@@ -7,6 +7,6 @@ discription: 64 blocks in parallel of PRESENT
 
 ### [64 blocks in parallel of PRESENT]
 
-将64个分组的每一比特统一放在一个uint64_t变量中。
+将64个分组的每一比特统一放在一个uint64_t变量中。4个分组并行？
 
 [64 blocks in parallel of PRESENT]:<https://github.com/pfasante/present>
