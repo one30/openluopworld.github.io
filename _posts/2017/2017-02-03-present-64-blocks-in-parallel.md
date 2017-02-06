@@ -17,7 +17,7 @@ uint64_t plain[64];
 uint64_t input[64];
 ```
 则有，
-ｓ
+
 input[0] = plain[63]<sub>0</sub>...plain[1]<sub>0</sub>plain[0]<sub>0</sub>
 
 input[63] = plain[63]<sub>63</sub>...plain[1]<sub>63</sub>plain[0]<sub>63</sub>
