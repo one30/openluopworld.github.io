@@ -17,10 +17,8 @@ uint64_t plain[64];
 uint64_t input[64];
 ```
 则有，
-```C
 input[0] = plain[63]<sub>0</sub>...plain[1]<sub>0</sub>plain[0]<sub>0</sub>
 input[63] = plain[63]<sub>63</sub>...plain[1]<sub>63</sub>plain[0]<sub>63</sub>
-```
 
 其中，plain[63]<sub>0</sub>表示plain[63]的最低比特位，plain[0]<sub>63</sub>表示plain[0]的最高比特位，其它同理。
 
