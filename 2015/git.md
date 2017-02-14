@@ -2,6 +2,9 @@
 layout: default
 ---
 
+### 我平常工作中用到的一些git命令
+date: 2015.08.20
+
 [Git]是一个开源的分布式版本控制工具，最初是由[Linus]在[Linux]的开发过程中为了更好的管理代码而开发。[GitHub]是基于Git实现的一个可视化的管理工具，这篇文章主要记录我在平常工作中用到的一些Git命令。都是非常基础的操作，可以作为一个入门的参考。
 
 ![Git](https://git-scm.com/images/logo@2x.png)
