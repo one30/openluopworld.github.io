@@ -13,7 +13,6 @@
    * [OpenPGP](http://www.luopeng.site/2016/openpgp.html)
    * [蛇形矩阵打印](http://www.luopeng.site/2016/metric.html)
    * [SAT solver for sbox implementation](http://www.luopeng.site/2016/sat.html)
-   * [面试问题](http://www.luopeng.site/2016/interview2.html)
 
 ### 2017
    * [64 blocks in parallel of PRESENT](http://www.luopeng.site/2017/present.html)
