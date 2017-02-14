@@ -2,7 +2,7 @@
    * [日常工作中用到的git命令](http://www.luopeng.site/2015/git.html)
 
 ### 2016
-   * [一些有用的书籍或网址](http://www.luopeng.site/2016/userfule-books-and-websites.html)
+   * [好的博客网址](http://www.luopeng.site/2016/blogs.html)
    * [密码算法的应用场景](http://www.luopeng.site/2016/use-of-ciphers.html)
    * [A Brief Introduction to Some Lightweight Block Ciphers](http://www.luopeng.site/2016/lightweight-block-cipher.html)
    * [RFID](http://www.luopeng.site/2016/rfid.html)
