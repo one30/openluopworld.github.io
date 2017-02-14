@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 我平常工作中用到的一些git命令
 date: 2015.08.20
 discription: Git是一个开源的分布式版本控制工具，最初是由Linus在Linux的开发过程中为了更好的管理代码而开发。GitHub是基于Git实现的一个可视化的管理工具，这篇文章主要记录我在平常工作中用到的一些Git命令。都是非常基础的操作，可以作为一个入门的参考...
