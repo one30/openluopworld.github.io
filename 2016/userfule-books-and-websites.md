@@ -33,8 +33,8 @@ Some random thoughts about crypto by [Matthew Green](http://blog.cryptographyeng
   + [C++ Reference](http://en.cppreference.com/w/cpp)
 
 ### Open Source
-  + [Github](https://github.com/)]
-  + [开源中国](https://git.oschina.net/)]
+  + [Github](https://github.com/)
+  + [开源中国](https://git.oschina.net/)
 
 ### Tools
   + [TeamViewer - Free Remote Control, Remote Access](https://www.teamviewer.com/en/index.aspx)
