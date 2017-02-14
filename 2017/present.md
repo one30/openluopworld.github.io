@@ -1,8 +1,5 @@
 ---
-layout: post
-title: Implementation of PRESENT in parallel
-date: 2017.02.03
-discription: 64 blocks in parallel of PRESENT
+layout: default
 ---
 
 # [64 blocks in parallel of PRESENT]
