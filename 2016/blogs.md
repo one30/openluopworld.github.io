@@ -37,8 +37,9 @@ layout: default
   + [TED](https://www.ted.com/)
   + [东北大学IPv6视频直播测试站](http://hdtv.neu6.edu.cn/)
 
-### Bookers
+### Linkers
   + [免费的编程中文书籍索引](https://github.com/justjavac/free-programming-books-zh_CN)
   + [大学生网站集合](https://github.com/Xuanwo/WebsitesForStudents)
+  + [成为专业程序员路上用到的各种优秀资料神器及框架](http://www.cnblogs.com/jasondan/p/6380597.html)
 
 
