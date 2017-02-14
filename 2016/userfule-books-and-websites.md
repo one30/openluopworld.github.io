@@ -1,11 +1,9 @@
 ---
-layout: post
-title: useful books and websites
-date: 2016.03.06
-discription: 一些有用的书籍或网址
+layout: default
 ---
 
-# Useful Books and Websites
+# 一些有用的书籍或网址
+2016.03.06
 
 <div id="2"></div>
 ## Books

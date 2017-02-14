@@ -1,11 +1,10 @@
 ---
-layout: post
-title: 蛇型矩阵打印
-date: 2016.09.02
-discription: 蛇形矩阵打印
+layout: default
 ---
 
-### 1. 蛇形矩阵打印
+# 蛇形矩阵打印
+2016.09.02
+
 ```C
 #include <stdio.h>
 #include <stdlib.h>

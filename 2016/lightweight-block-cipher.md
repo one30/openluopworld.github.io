@@ -1,11 +1,9 @@
 ---
-layout: post
-title: Lightweight block cipher history
-date: 2016.06.14
-discription: A Brief Introduction to Some Lightweight Block Ciphers
+layout: default
 ---
 
-# Basic Info of Some Block Ciphers
+# A Brief Introduction to Some Lightweight Block Ciphers
+2016.06.14
 
 * Block size and key size are in bit
 * "Whiten key" to indicate whether the cipher has a last round key-eor after the loop

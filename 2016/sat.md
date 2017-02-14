@@ -1,11 +1,9 @@
 ---
-layout: post
-title: SAT solver for sbox implementation
-date: 2016.10.11
-discription: SAT solver for sbox implementation
+layout: default
 ---
 
-### 1. SAT solver for sbox implementation
+# SAT solver for sbox implementation
+2016.10.11
 
 ### 1.1 SAT solver
 SAT求解模型如下：对于n个GF(2)上的变量，给定m个限制条件，每个限制条件给出其中任意多个变量的限制（取0或者取1）,求是否存在满足所有限制条件的解。相关介绍可以参考[这里]。

@@ -1,10 +1,9 @@
 ---
-layout: post
-title: LeetCode Problem 107, Binary Tree Level Order Traversal II
-date: 2016.08.13
+layout: default 
 ---
 
-### LeetCode Problem 107, Binary Tree Level Order Traversal II
+# LeetCode Problem 107, Binary Tree Level Order Traversal II
+2016.08.13
 
 ### **[Solution 1]**
 作者：leetcode@liopi

@@ -6,6 +6,7 @@ discription: 64 blocks in parallel of PRESENT
 ---
 
 # [64 blocks in parallel of PRESENT]
+2017.02.03
 
 ### 1. 数据变换
 并行实现64个分组的加密。设64个分组分别为：

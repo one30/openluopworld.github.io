@@ -1,10 +1,9 @@
 ---
-layout: post
-title: LeetCode Problem 111, Minimun Depth of Binary Tree
-date: 2016.08.13
+layout: default
 ---
 
-### Minimun Depth of Binary Tree
+# LeetCode Problem 111, Minimun Depth of Binary Tree
+2016.08.13
 
 * 题目描述：给定一课二叉树，求二叉树的最短深度，即最短路径的长度。
 

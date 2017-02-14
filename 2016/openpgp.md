@@ -1,9 +1,9 @@
 ---
-layout: post
-title: OpenPGP
-date: 2016.08.20
-discription: 密码算法主要分为对称密码，非对称密码，密码杂凑函数三大类。各类算法有各自的特点已经应用场景，在实际的应用系统中，往往结合多种密码算法。其中OpenPGP给出了很多应用场景...
+layout: default
 ---
+
+# OpenPGP
+2016.08.20
 
 ### 1. 密码简介
 

@@ -1,11 +1,9 @@
 ---
-layout: post
-title: RRID
-date: 2016.06.14
-discription: RFID基本知识
+layout: default
 ---
 
-## RRID
+# RRID
+2016.06.14
 
 ### RRID分类
 RFID (Radio Frequency Identification) (也称作标签) 指无线数据传输的微芯片，它们通常被附着在需要认证的实体上。在实际的RFID应用系统中，通常包括阅读器(reader/transceiver)、应答器 (tag/transponder) 和后端数据库 (back-end database) 三部分。阅读器由天线、芯片等组成，可以从RFIDs读取或写入信息；应答器包括天线、芯片等部件，一般来说都是用RFID作为应答器芯片；而后端数据库主要用于存储信息，提供RFIDs的初始化以及使用过程的一些通信需求。通信流程如下：阅读器发送信号给应答器，应答器收到信号后给出相应的响应。

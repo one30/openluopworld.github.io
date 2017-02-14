@@ -1,10 +1,10 @@
 ---
-layout: post
-title: LeetCode Problem 225, Implement Stack using Queues
-date: 2016.08.14
+layout: default
 ---
 
-### 1. [Implement Stack using Queues]
+# LeetCode Problem 225, [Implement Stack using Queues]
+2016.08.14
+
 问题描述：使用队列实现栈的基本操作。假设不存在错误操作，比如空栈的pop(),top()操作等。
 
 栈和队列是两种非常常见的数据结构。其中栈是LIFO(Last In First Out)，而队列是FIFO(First In First Out)。因此要想通过队列来实现栈，其中必然有一次方向的转化。
