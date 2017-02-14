@@ -38,7 +38,7 @@ layout: default
     - 轻量级分组密码：[PRESENT], HIGHT, SEA, [LBlock], LED, PRINCE, [SIMON], SPECK, PRIDE, Midori, [RECTANGLE]等。
 
 <table align="center">
-<tr><td><img alt="AES Candidates" src="http://america.pink/images/4/6/7/4/7/1/5/en/3-vincent-rijmen.jpg" width="65%"></td></tr>
+<tr><td><img alt="AES Candidates" src="http://1.lpxq.sinaapp.com/images/2015/aes_candidates.jpg" width="65%"></td></tr>
 <tr><td>AES Candidates</td></tr>
 </table>
 
