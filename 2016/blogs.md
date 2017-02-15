@@ -15,7 +15,6 @@ layout: default
   + Some random thoughts about crypto by [Matthew Green](http://blog.cryptographyengineering.com/2016_08_01_archive.html)
   + [Hartley Brody](https://blog.hartleybrody.com/)
   + [Jeff Atwood](https://blog.codinghorror.com/)(国外知名博主)
-  + 
 
 ### Computer Science
   + [C语言中你想不到的一些问题](http://github.tiankonguse.com/blog/2014/12/05/c-base.html)
