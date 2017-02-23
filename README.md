@@ -1,5 +1,5 @@
 ### 2017
-   * [64 blocks in parallel of PRESENT](http://www.luopeng.site/2017/present.html)
+   * [PRESENT 64分组并行实现](http://www.luopeng.site/2017/present.html)
 
 ### 2016
    * [SAT solver for sbox implementation](http://www.luopeng.site/2016/sat.html)
@@ -10,8 +10,7 @@
    * [LeetCode Problem 111, Minimun Depth of Binary Tree](http://www.luopeng.site/2016/leetcode111.html)
    * [LeetCode Problem 107, Binary Tree Level Order Traversal II](http://www.luopeng.site/2016/leetcode107.html)
    * [RFID](http://www.luopeng.site/2016/rfid.html)
-   * [A Brief Introduction to Some Lightweight Block Ciphers](http://www.luopeng.site/2016/lightweight-block-cipher.html)
-   * [密码算法的应用场景](http://www.luopeng.site/2016/use-of-ciphers.html)
+   * [轻量级分组密码算法](http://www.luopeng.site/2016/lightweight-block-cipher.html)
    * [好的博客网址](http://www.luopeng.site/2016/blogs.html)
 
 ### 2015
