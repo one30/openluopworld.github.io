@@ -18,3 +18,5 @@
 
 ### 2014
    * [Haffman算法](http://www.luopeng.site/2014/haffman.html)
+
+### [阅读](http://www.luopeng.site/read/reading.html)
