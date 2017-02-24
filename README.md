@@ -12,3 +12,4 @@
 
 ### 2015
    * [日常工作中用到的git命令](http://www.luopeng.site/2015/git.html)
+   * [MySQL基本命令操作](http://www.luopeng.site/2015/mysql.html)
