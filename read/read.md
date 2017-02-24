@@ -9,6 +9,8 @@ layout: default
 + 疯子
 + 在痛苦的世界中尽力而为
 
+|![code](./code.jpg?raw=true)|![iwoz](./iwoz.jpg?raw=true)|![yuminhong](./try-your-best-in-the-hard-world.jpg?raw=true)|
+
 ### 2015
 + **我是沃兹**
 + **软件管理沉思录**
