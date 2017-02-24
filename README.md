@@ -2,7 +2,7 @@
    * [PRESENT 64分组并行实现](http://www.luopeng.site/2017/present.html)
 
 ### 2016
-   * [SAT solver for sbox implementation](http://www.luopeng.site/2016/sat.html)
+   * [使用SAT求解器搜S盒指令序列](http://www.luopeng.site/2016/sat.html)
    * [蛇形矩阵打印](http://www.luopeng.site/2016/metric.html)
    * [OpenPGP](http://www.luopeng.site/2016/openpgp.html)
    * [面试问题小结](http://www.luopeng.site/2016/interview.html)
