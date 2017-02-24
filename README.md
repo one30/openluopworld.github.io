@@ -15,3 +15,6 @@
    * [MySQL基本命令操作](http://www.luopeng.site/2015/mysql.html)
    * [模拟随机数的生成](http://www.luopeng.site/2015/random-generator.html)
    * [英文字母频率统计](http://www.luopeng.site/2015/lettercount.html)
+
+### 2014
+   * [Haffman算法](http://www.luopeng.site/2014/haffman.html)
