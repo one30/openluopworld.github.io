@@ -38,9 +38,11 @@ layout: default
 下图1是1位数的统计结果；图2是两位数的统计结果。
 
 ![one number of pai](./../images/one-number-of-pai.png?raw=true)
+
 图1 π后小数位1位数统计结果
 
 ![two numbers of pai](./../images/two-numbers-of-pai.png?raw=true)
+
 图2 π后小数位2位数统计结果
 
 从中可以看出，1位数的情况随机性还是可以的，但两位数的效果就要差很多了，可能是基数太小的原因吧；如果是这样，小数点后精确更多的位数（比如10,000位）再统计效果应该会改善。没有具体试，也不知道实际效果咋样……
@@ -61,9 +63,11 @@ layout: default
 实际的统计结果如下，图3表示一位数的结果，图4表示两位数的结果。
 
 ![one-number-of-primes](./../images/one-number-of-primes.png?raw=true)
+
 图3 拼接素数一位数的统计结果
 
 ![two-numbers-of-primes](./../images/two-numbers-of-primes.png?raw=true)
+
 图4 拼接素数一位数的统计结果
 
 从图中可以看出，两种情况的统计结果都不理想。这可能与素数自身的公布情况有关和截取的范围有关。例如，直观上看，3、7在素数中出现的概率就比2要大，因为2出现在素数中只可能出现在非各位，但3和7就可以……
