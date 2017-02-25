@@ -27,6 +27,7 @@ layout: default
 
 |![hackers-and-painters](./hackers-and-painters.jpg?raw=true)|![a-history-of-silicon](./a-history-of-silicon.jpg?raw=true)|![power-of-bigdata](./power-of-bigdata.jpg?raw=true)|
 
++ 好安静的书
 + 货币战争
 + 明朝那些事儿
 + 另一个我——听弗洛伊德解密心理
@@ -36,6 +37,7 @@ layout: default
 + 学习爱
 
 |![currency-war](./currency-war.jpg?raw=true)|![things-of-ming-dynasty](./things-of-ming-dynasty.jpg?raw=true)|![donot-love-world](./donot-love-world.jpg?raw=true)|
+|![quite](./quite.jpg?raw=true)|![dao-cao-ren](./dao-cao-ren.jpg?raw=true)||
 
 
 ### 2014
