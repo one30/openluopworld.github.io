@@ -13,6 +13,7 @@
 ### 2015
    * [日常工作中用到的git命令](http://www.luopeng.site/2015/git.html)
    * [MySQL基本命令操作](http://www.luopeng.site/2015/mysql.html)
+   * [云端高性能技术架构浅析](http://www.luopeng.site/2015/high-cloud.html)
    * [模拟随机数的生成](http://www.luopeng.site/2015/random-generator.html)
    * [英文字母频率统计](http://www.luopeng.site/2015/lettercount.html)
 
