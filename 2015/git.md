@@ -28,17 +28,21 @@ git config --global user.email "email" // 例如：git config --global user.emai
 ```sh
 // 克隆远程项目
 git clone https://git.oschina.net/luop/Test
+```
 
+```sh
 // 项目clone后保存在gitcodes目录下，要想进行相应的操作我们需要先进入到该目录。
 cd Test // Test即是远端项目的名字
+```
 
+```sh
 // 接下来便可以对文件做增加，删除，修改操作；完成后可以先使用diff命令查看具体修改的内容
 // 该命令将查看本次所有的改动，可以方便工程师了解所做的改动是否和自己预期的一致，这可以防止错误修改
 // 使用diff命令后可以通过q退出
 git diff 
 
+```sh
 // 提交本次修改
-
 // 提交修改到本地的仓库
 git add --all
 // 查看本次修改的文件（包括修改的(modified)，增加的(added)，删除的(deleted)3种类别），但只给出文件名，没有具体修改细节；
