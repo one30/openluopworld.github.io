@@ -2,13 +2,13 @@
 layout: default
 ---
 
-# SAT solver for sbox implementation
+# SAT求解器搜索S盒指令序列
 2016.10.11
 
 ### 1.1 SAT solver
 SAT求解模型如下：对于n个GF(2)上的变量，给定m个限制条件，每个限制条件给出其中任意多个变量的限制（取0或者取1）,求是否存在满足所有限制条件的解。相关介绍可以参考[这里]。
 
-使用SAT求解sbox指令序列的方法可以参考[paper]，具体介绍参考[sboxoptimization]，如下是一个简单的例子：
+使用SAT求解sbox指令序列的方法可以参考[paper]，源码参考[sboxoptimization]，如下是一个简单的例子：
 
 ```sh
 $ ./getanf.py gc rectangle 11 > rectangle_gc11.eqs
