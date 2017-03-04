@@ -7,7 +7,7 @@
    * [OpenPGP](http://www.luopeng.site/2016/openpgp.html)
    * [面试问题小结](http://www.luopeng.site/2016/interview.html)
    * [RFID](http://www.luopeng.site/2016/rfid.html)
-   * [轻量级分组密码算法](http://www.luopeng.site/2016/lightweight-block-cipher.html)
+   * [轻量级分组密码算法简介](http://www.luopeng.site/2016/lightweight-block-cipher.html)
    * [好的博客网址](http://www.luopeng.site/2016/blogs.html)
 
 ### 2015

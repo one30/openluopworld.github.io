@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# 轻量级分组密码算法
+# 轻量级分组密码算法简介
 2016.06.14
 
 * Block size and key size are in bit
