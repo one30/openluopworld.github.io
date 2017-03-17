@@ -4,7 +4,7 @@ layout: aes
 
 # AES-128
 
-C implementation of AES-128. THis code has been tested with valgrind-3.11.0.
+C implementation of AES-128. This code has been tested with valgrind-3.11.0.
 
 ```C
 /**
