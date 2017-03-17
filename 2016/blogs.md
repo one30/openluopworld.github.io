@@ -27,6 +27,7 @@ layout: default
 ### Projects
   + [Crypto++](https://www.cryptopp.com)
   + [CAESAR](https://competitions.cr.yp.to)
+  + [数缘社区](http://www.mathmagic.cn/)
 
 ### Computer Science
   + [C语言中你想不到的一些问题](http://github.tiankonguse.com/blog/2014/12/05/c-base.html)
