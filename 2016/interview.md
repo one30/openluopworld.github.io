@@ -127,11 +127,11 @@ void rrl( char * a, int n, int x ) {
 4.　Web项目中客户端服务器的通信方式，https, socket?
 
 ### 6. 其它
-*. 数据库的4种join操作
-*. sql注入漏洞
-*. 数据库事务
-*. strcpy, memcpy的区别；strcpy，strncpy的区别
-*. Singleton单例类，常见设计模式
+* 数据库的4种join操作
+* sql注入漏洞
+* 数据库事务
+* strcpy, memcpy的区别；strcpy，strncpy的区别
+* Singleton单例类，常见设计模式
 * 给定一个长度为n的数组，编号以此为1-n；给定一个数值k，其中k>=1并且k<=n，依次让所有元素从1开始报数，报到k的元素出局，后续继续从1开始报，循环下去直至剩余一个元素。给定n和k，求最终剩下的一个元素；
 * 缓冲区溢出具体是如何造成攻击的（华为）
 * 白盒密码
