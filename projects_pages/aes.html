@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>implementation of aes-128 in c</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.0/gh-fork-ribbon.min.css' type='text/css'>
+	<style type="text/css">	 
+	 *{
+		margin:0 0 0 0;
+		padding:0 0 0 0;
+		line-height:1.25
+	 }
+	 
+	 .header{
+		width:100%;
+		height:24em;
+		background-color:#157878;
+		color:#ffffff;
+		text-align:center;
+	 }
+	 
+	 .title{
+		font-size:3em;
+		padding:1.8em 0 0 0;
+	 }
+	 
+	 .description{
+		padding:1.8em 0 1.8em 0;
+	 }
+	 
+	 a.button{
+		display:inline-block;
+		padding: 1em .7em 1em .7em;
+		margin-right: 1em;
+		border:.1em solid #aaa;
+		outline:none;
+		-webkit-appearance:none;
+		-moz-appearance:none;
+		-ms-appearance:none;
+		-o-appearance:none;
+		appearance:none;
+		border-radius:2px;
+		font-family:'Roboto', Helvetica, sans-serif;
+		font-size:1em;
+		letter-spacing:0.02em;
+		text-transform:uppercase;
+		cursor:pointer;
+		text-decoration:none;
+	}
+		
+	 a.button.button-transparent{
+		font-weight:400;
+		background:transparent;
+	 }
+	 
+	 a.button.button-transparent:link, a.button.button-transparent:visited{
+		color:#fff;
+	}
+	
+	 a.button.button-transparent:hover{
+		color:#ee6534;
+	 }
+	 
+	 div.content{
+		align:center;
+		font-size:1.1em;
+		font-family:"Courier New", Courier, monospace;
+		margin-top:1.5em; 
+		min-width:1000px;
+		max-width:1100px;
+	 }
+	 
+	 h1.page-title {
+		font-family:"Times New Roman", Times, serif;
+		font-size:2em;
+		color:#01814A;
+		margin:1.5em 0 1em 0;
+		text-align:left;
+	 }
+	 
+	 h3.page-subtitle{
+		font-family:"Times New Roman", Times, serif;
+		font-size:1.5em;
+		color:#01814A;
+		margin:1em 0 .5em 0;
+		text-align:left;
+	 }
+	 
+	 p.body {
+		text-align:left;
+		margin-left:1em;
+	 }
+	 
+	 p.table-para{
+		margin-top:1em;
+		text-align:left;
+		margin-left:1em;
+	 }
+	 
+	 ul.first-list {
+		 text-align:left;
+		 margin-left:2em;
+	 }
+	 
+	 li.first-item {
+		margin-top:1em;
+	 }
+	 
+	 ul.second-list {
+		margin-left:2em;
+	 }
+	 
+	 p.footer {
+		width:100%;
+		height:3em;
+		margin-top:1.5em;
+		padding-top:1.5em;
+		font-family:"Courier New", Courier, monospace;
+		background-color:#157878;
+		color:#ffffff;
+		text-align:center;
+	 }
+	
+	 table.two-column, table.three-column {
+		width:100%;
+		align:center;
+	 }
+	 
+	 td.first-column, td.second-column {
+		width:46%;
+		text-align:center;
+		padding:0 1em 1em 1em;
+	 }
+	 
+	 td.three-cols {
+		width:33%;
+		text-align:center;
+	 }
+	 
+	 table.in-one-line {
+		margin-top:1em;
+		margin-left:1em;
+	 }
+	 
+	 tr.in-one-line td{
+		height:2em;
+		border-top:1px solid #8B8B83;
+	 }
+	 
+	 tr.in-one-line-last td{
+		height:2em;
+		border-top:1px solid #8B8B83;
+		border-bottom:1px solid #8B8B83;
+	 }
+	 
+	 font.keyword{
+		color:#69a4da;
+	 }
+	 
+	 font.returnvalue{
+		color:#f15559;
+	 }
+	 
+	 font.functionname{
+		color:#a894c9;
+	 }
+	 
+	 a.outlink {
+		text-decoration:none;
+	 }
+	 
+	 img.logo {
+		max-width:280px;
+		margin:2em 0 0 0;
+	 }
+	</style>
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.0/gh-fork-ribbon.ie.min.css" />
+    <![endif]-->
+	
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+		Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-69864048-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+  </head>
+  
+  <body>
+    <header class="header">
+	  <a class="github-fork-ribbon" href="https://github.com/openluopworld/aes_128" title="Fork me on GitHub">Fork me on GitHub</a>
+      <div class="project-info">
+        <h1 class="title">AES-128</h1>
+		<h2 class="description">An Implementation of AES-128 in C</h2>
+        <a href="https://github.com/openluopworld/aes_128" class="button button-transparent">View on GitHub</a>
+        <a href="https://github.com/openluopworld/aes_128/archive/master.zip" class="button button-transparent">Download .zip</a>
+      </div>
+    </header>
+	<center>
+	<div class="content">
+		<h1 class="page-title">Implementation</h1>
+		<p class="body">This is an implementation of AES-128 in C. No modes are given here. The code is just for study because many famous projects have given very efficient implementations. This code has been tested with <i>valgrind-3.11.0</i>.</p>
+		<h3 class="page-subtitle">Interfaces</h3>
+		<ul class="first-list">
+			<li class="first-item"><font class="returnvalue">void</font> <font class="functionname">aes_key_schedule_128</font>(<font class="returnvalue">const</font> <font class="keyword">uint8_t </font>*key, <font class="keyword">uint8_t</font> *roundkeys);</li>
+				<ul class="second-list">
+					<li>@purpose:			Key schedule for AES-128</li>
+					<li>@par[in]key:			16 bytes of master keys</li>
+					<li>@par[out]roundkeys:	176 bytes of round keys</li>
+				</ul>
+			<li class="first-item"><font class="returnvalue">void</font> <font class="functionname">aes_encrypt_128</font>(<font class="returnvalue">const</font> <font class="keyword">uint8_t</font> *roundkeys, <font class="returnvalue">const</font> <font class="keyword">uint8_t</font> *plaintext, uint8_t</font> *ciphertext);</li>
+				<ul class="second-list">
+					<li>@purpose: Encryption. The length of plain text and cipher text should be one block (16 bytes). They may point to the same memory.</li>
+					<li>@par[in]roundkeys: round keys</li>
+					<li>@par[in]plaintext: plain text</li>
+					<li>@par[out]ciphertext: cipher text</li>
+				</ul>
+			<li class="first-item"><font class="returnvalue">void</font> <font class="functionname">aes_decrypt_128</font>(<font class="returnvalue">const</font> <font class="keyword">uint8_t</font> *roundkeys, <font class="returnvalue">const</font> <font class="keyword">uint8_t</font> *ciphertext, uint8_t</font> *plaintext);</li>
+				<ul class="second-list">
+					<li>@purpose: Decryption. The length of cipher text and plain text should be one block (16 bytes). They may point to the same memory.</li>
+					<li>@par[in]roundkeys: round keys</li>
+					<li>@par[in]ciphertext: cipher text</li>
+					<li>@par[out]plaintext: plain text</li>
+				</ul>
+		</ul>
+		<h1 class="page-title">AES-128</h1>
+		<table class="two-column">
+			<tr>
+				<td class="first-column">
+				<p class="body">AES is a block cipher, which belongs to <a class="outlink" href="https://en.wikipedia.org/wiki/Symmetric-key_algorithm">symmetric cipher</a>. It is designed by the very famous cryptographer <a class="outlink" href="https://en.wikipedia.org/wiki/Joan_Daemen">Joan Daemen</a> and <a class="outlink"  href="https://en.wikipedia.org/wiki/Vincent_Rijmen">Vincent Rijmen</a>. The block size of AES is 128-bit, the key size has three different versions: 128-bit, 192-bit and 256-bit. Here we introduce the structure and implementation of AES-128(the version with 128-bit keys).</p>
+				<p class="table-para">The stucture of AES is shown in the right figure. There are four main parts: </p>
+				<table class="in-one-line">
+					<tr class="in-one-line"><td><b>AddRoundKey</b></td></tr>
+					<tr class="in-one-line"><td><b>SubBytes</b></td></tr>
+					<tr class="in-one-line"><td><b>ShiftRows</b></td></tr>
+					<tr class="in-one-line-last"><td><b>MixColumns</b></td></tr>
+				</table>
+				</td>
+				<td class="second-column"><img src="images/structure.png" width="360px"></img></td>
+			</tr>
+		</table>
+		<!-- Cipher State -->
+		<h3 class="page-subtitle">Cipher State</h3>
+		<table class="two-column">
+			<tr>
+				<td class="first-column">
+				<img src="images/aes-state.png" width="320px"></img>
+				</td>
+				<td class="second-column">
+				<p class="body">Supppose the 128-bit of a block (or round keys) is arrange as a 4x4 metrix, as shown in the figure a), where T0 is the least significant byte, and T15 is the most significant byte. In order to describe, we rename it in another way, as shown in figure b).</p>
+				</td>
+			</tr>
+		</table>
+		<!-- AddRoundKey and SubBytes -->
+		<h3 class="page-subtitle">AddRoundKey</h3>
+		<p class="body">The 128-bit plain text (or cipher text) is XOR-ed with the 128-bit round keys.</p>
+		<h3 class="page-subtitle">SubBytes</h3>
+		<p class="body">Every byte of the state is replaced according to <b><i>Sbox</i></b> (in encryption) or <b><i>Inverse-Sbox</i></b> (in decryption).</p>
+		<!-- ShiftRows -->
+		<h3 class="page-subtitle">ShiftRows</h3>
+		<table class="two-column">
+			<tr>
+				<td class="first-column">
+					<p class="body"><b><i>ShiftRows</i></b> is shown in the right figure. That is to say, in encryption:</p>
+					<p class="body">1) The first line is not changed.</p>
+					<p class="body">2) The second line is rotated shift left by 8-bit.</p>
+					<p class="body">3) The third line is rotated shift left by 16-bit.</p>
+					<p class="body">4) The fourth line is rotated shift left by 24-bit.</p>
+				</td>
+				<td class="second-column"><img src="images/shiftrows.png" width="320px"></img></td>
+			<tr>
+		</table>
+		<!-- MixColumns -->
+		<h3 class="page-subtitle">MixColumns</h3>
+		<table class="two-column">
+			<tr>
+				<td class="first-column"><img src="images/mixcolumns.png" width="360px"></img></td>
+				<td class="second-column">
+				<img src="images/inverse-mixcolumns.png" width="360px"></img>
+				</td>
+			<tr>
+		</table>
+		<h1 class="page-title">Open Source</h1>
+		<table class="three-column">
+			<tr>
+				<td class="three-cols"><a href="https://www.kernel.org/"><img class="logo" alt="linux" src="https://www.kernel.org/theme/images/logos/favicon.png"></img></a> <a class="outlink" href="https://github.com/torvalds/linux">Src</a></td>
+				<td class="three-cols"><a href="https://www.openssl.org/"><img class="logo" alt="openssl" src="
+				images/openssl.png"></img></a><a class="outlink" href="https://github.com/openssl/openssl">Src</a></td>
+				<td class="three-cols"><a href="https://tls.mbed.org/"><img class="logo" alt="mbedtls" src="images/mbedtls.png"></img></a><a class="outlink" href="https://github.com/ARMmbed/mbedtls">Src</a></td>
+			</tr>
+		</table>
+	</div>
+	</center>
+	<p class="footer">
+		@Copyright LuoPeng
+	</p>
+  </body>
+</html>
+
