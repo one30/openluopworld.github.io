@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# 64 blocks in parallel of PRESENT
+# 轻量级分组密码PRESENT及实现介绍
 2017.02.03
 
 2017.03.22：增加PRESENT一些实现的链接
