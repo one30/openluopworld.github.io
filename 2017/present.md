@@ -3,11 +3,11 @@ layout: default
 ---
 
 # 轻量级分组密码PRESENT及实现介绍
-2017.02.03
+2017.03.25更新
 
-2017.03.22：增加PRESENT一些实现的链接
+### 1.PRESENT<sub><a href="https://www.iacr.org/archive/ches2007/47270450/47270450.pdf">paper</a></sub>&nbsp;<sub><a href="https://en.wikipedia.org/wiki/PRESENT_(cipher)">wiki</a></sub>
 
-### 1. 数据变换
+### 2.实现
 并行实现64个分组的加密。设64个分组分别为：
 ```C
 uint64_t plain[64];
