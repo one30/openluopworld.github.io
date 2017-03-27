@@ -1,4 +1,5 @@
 ### 2017
+   * [国家商用分组密码SM4](http://www.luopeng.site/2017/sm4.html)
    * [轻量级分组密码PRESENT及实现介绍](http://www.luopeng.site/2017/present.html)
 
 ### 2016
