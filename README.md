@@ -1,6 +1,6 @@
 ### 2017
-   * [国家商用分组密码SM4](http://www.luopeng.site/2017/sm4.html)
-   * [轻量级分组密码PRESENT及实现介绍](http://www.luopeng.site/2017/present.html)
+   * [中国商用分组密码SM4](./doc/sm4.pdf)
+   * [轻量级分组密码PRESENT及实现介绍](./2017/present.html)
 
 ### 2016
    * [SAT求解器搜S盒指令序列](http://www.luopeng.site/2016/sat.html)
