@@ -2,4 +2,4 @@
 layout: default
 ---
 
-![sm4](sm4new.pdf)
+<img src="./sm4new.pdf" alt="sm4 cipher">
