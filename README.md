@@ -1,5 +1,5 @@
 ### 2017
-   * [中国商用分组密码标准SM4](./doc/sm4.pdf) <sub>pdf</sub>
+   * [中国商用分组密码标准SM4](./2017/sm4.html) <sub>pdf</sub>
    * [轻量级分组密码PRESENT及实现介绍](./2017/present.html)
 
 ### 2016
