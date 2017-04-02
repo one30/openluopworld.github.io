@@ -2,4 +2,4 @@
 layout: default
 ---
 
-![sm4](sm4new.pdf?raw=true)
+![sm4](sm4new.pdf)
