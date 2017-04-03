@@ -1,6 +1,6 @@
 ### 2017
    * [中国商用分组密码标准SM4](./doc/sm4.pdf) <sub>pdf</sub>
-   * [轻量级分组密码PRESENT及实现介绍](./2017/present.html)
+   * [轻量级分组密码PRESENT及实现介绍](./doc/present.pdf)
 
 ### 2016
    * [SAT求解器搜S盒指令序列](./2016/sat.html)
