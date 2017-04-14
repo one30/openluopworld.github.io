@@ -105,10 +105,10 @@ git push origin --delete temp // temp为分支名
 * fork的项目更新源项目的提交
 
 ```sh
-// git remote add origin_name git@github.com:username/projectname
-// git fetch origin_name
-// the two commands are equal to the following command
-git fetch original_project_url
+git remote add temp_name git@github.com:username/projectname
+// 在某个分支下，比如master
+git pull temp_name master
+git push
 ```
 
 这有关于[Git flow分支管理]的文章，有兴趣可以看看。
