@@ -47,7 +47,7 @@ layout: default
     + [eprint](https://eprint.iacr.org/complete/)
     + [dblp](http://dblp.uni-trier.de/)
   * Extension
-　　　　+ [AES, CAESAR, SHA3](https://competitions.cr.yp.to)
+    + [AES, CAESAR, SHA3](https://competitions.cr.yp.to)
     + [Tools for experimental algebraic cryptanalysis](http://www.cryptosystem.net/aes/tools.html)
 
 ## IOT
