@@ -5,7 +5,7 @@ layout: default
 # 好的博客网址
 2016.03.06
 
-### Blogs or Home Pages
+## Blogs or Home Pages
   * Cipher
     + About Cryptography [Brian Gladman](http://www.gladman.me.uk/)
     + Software engineer and applicationi security research by [IVAN RISTIC](https://blog.ivanristic.com/)
@@ -24,13 +24,13 @@ layout: default
     + [Sheharyar](https://sheharyar.me/)
     + [Hartley Brody](https://blog.hartleybrody.com/)
 
-### Projects
+## Projects
   + [Crypto++](https://www.cryptopp.com)
   + [CAESAR](https://competitions.cr.yp.to)
   + [数缘社区](http://www.mathmagic.cn/)
   + [SHA3](https://competitions.cr.yp.to/)
 
-### Computer Science
+## Computer Science
   + [C语言中你想不到的一些问题](http://github.tiankonguse.com/blog/2014/12/05/c-base.html)
   + [C++ Reference](http://en.cppreference.com/w/cpp)
   + [LeetCode](https://leetcode.com/problemset/algorithms/)
@@ -39,7 +39,10 @@ layout: default
   + [Github](https://github.com/)
   + [开源中国](https://git.oschina.net/)
 
-### Tools
+## IOT
+  + [Azure IOT](http://azure.github.io/azure-iot-sdks/)
+
+## Tools
   * Software
     + [Valgrind](http://valgrind.org/)
     + [PuTTY(SSH Client for linux)](http://www.chiark.greenend.org.uk/~sgtatham/putty/)
@@ -61,7 +64,7 @@ layout: default
     + [Music for programming](http://musicforprogramming.net)
 
 
-### Linkers
+## Linkers
   + [免费的编程中文书籍索引](https://github.com/justjavac/free-programming-books-zh_CN)
   + [大学生网站集合](https://github.com/Xuanwo/WebsitesForStudents)
   + [成为专业程序员路上用到的各种优秀资料神器及框架](http://www.cnblogs.com/jasondan/p/6380597.html)
