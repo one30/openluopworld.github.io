@@ -66,6 +66,7 @@ layout: default
   * Paper
     + [LaTeX](https://latex-project.org/ftp.html)
   * Study
+    + [Matlab online](https://octave-online.net/)
     + [TED](https://www.ted.com/)
     + [Coursera](https://www.coursera.org/)
   * Resources
