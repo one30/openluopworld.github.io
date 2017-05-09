@@ -1,4 +1,5 @@
 ### 2017
+   * [LATEX中使用Alpha引用方式](./2017/latex-alpha.html)
    * [中国商用分组密码标准SM4](./doc/sm4.pdf) <sub>pdf</sub>
    * [轻量级分组密码PRESENT及实现介绍](./doc/present.pdf) <sub>pdf</sub>
 
