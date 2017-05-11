@@ -1,3 +1,5 @@
+### [阅读](./read/read.html)
+
 ### 2017
    * [LATEX中使用Alpha引用方式](./2017/latex-alpha.html)
    * [中国商用分组密码标准SM4](./doc/sm4.pdf) <sub>pdf</sub>
@@ -17,5 +19,3 @@
    * [云端高性能技术架构浅析](./2015/high-cloud.html)
    * [模拟随机数的生成](./2015/random-generator.html)
    * [英文字母频率统计](./2015/lettercount.html)
-
-### [阅读](./read/read.html)
