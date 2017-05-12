@@ -10,6 +10,9 @@ layout: default
 * ChaCha20-Poly1305
 * ChaCha20-Poly1305-IETF
 * XChaCha20-Poly1305-IETF
+* Key exchange: X25519
+* Signle-part Signature: Ed25519
+* Multi-part Signature: Ed25519ph
 
 ## 对称密码
 
