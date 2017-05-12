@@ -6,6 +6,10 @@ layout: default
 2017.05.11
 
 * HMAC-SHA512
+* AES256-GCM
+* ChaCha20-Poly1305
+* ChaCha20-Poly1305-IETF
+* XChaCha20-Poly1305-IETF
 
 ## 对称密码
 
