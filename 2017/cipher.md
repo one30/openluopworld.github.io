@@ -13,6 +13,7 @@ layout: default
 * Key exchange: X25519
 * Signle-part Signature: Ed25519
 * Multi-part Signature: Ed25519ph
+* Short message hash: SipHash-2-4
 
 ## 对称密码
 
