@@ -14,6 +14,9 @@ layout: default
 ## 流密码
 * [salsa20]
 
+## 消息认证码
+* [Poly1305], [rfc7539]
+
 ## 密码套件
 * HMAC-SHA512
 * AES256-GCM
@@ -27,3 +30,5 @@ layout: default
 
 [SHA2]:<https://en.wikipedia.org/wiki/SHA-2>
 [salsa20]:<https://en.wikipedia.org/wiki/Salsa20>
+[Poly1305]:<https://en.wikipedia.org/wiki/Poly1305>
+[rfc7539]:<https://tools.ietf.org/html/rfc7539>
