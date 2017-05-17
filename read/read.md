@@ -42,8 +42,7 @@ layout: default
 + 活着
 + 学习爱
 
-|![currency-war](./currency-war.jpg?raw=true)|![things-of-ming-dynasty](./things-of-ming-dynasty.jpg?raw=true)|![donot-love-world](./donot-love-world.jpg?raw=true)|
-|![quite](./quite.jpg?raw=true)|![dao-cao-ren](./dao-cao-ren.jpg?raw=true)||
+|![currency-war](./currency-war.jpg?raw=true)|![things-of-ming-dynasty](./things-of-ming-dynasty.jpg?raw=true)|![quite](./quite.jpg?raw=true)|
 
 
 ### 2014
