@@ -36,7 +36,10 @@ layout: default
 * TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
 * TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA
 
+[TLS的密码套件]。
+
 [SHA2]:<https://en.wikipedia.org/wiki/SHA-2>
 [salsa20]:<https://en.wikipedia.org/wiki/Salsa20>
 [Poly1305]:<https://en.wikipedia.org/wiki/Poly1305>
 [rfc7539]:<https://tools.ietf.org/html/rfc7539>
+[TLS的密码套件]:<https://www.iana.org/assignments/tls-parameters/tls-parameters.xhtml>
