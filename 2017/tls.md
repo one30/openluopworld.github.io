@@ -2,28 +2,10 @@
 layout: default
 ---
 
-# 密码
+# TLS
 2017.05.11
 
-## 分组密码
-
-## 流密码
-* [salsa20]
-
-## 密码杂凑函数
-* [SHA2]
-  + SHA256: 摘要长度为256比特
-  + SHA512: 摘要长度为512比特
-  + SHA2算法中一些常数的选择是通过素数平方根的小数部分得到的，突然想到QQ号码生成的随机性
-
-## 消息认证码
-* [Poly1305], [rfc7539]
-
-## 认证加密
-
-## 公钥密码算法
-
-## 密码套件
+## [TLS密码套件]
 
 密码套件通常包括：协议名称，秘钥交换算算法，身份认证算法，加密算法，加密模式，密码杂凑函数。常见的密码算法套件包括但不限于：
 
@@ -36,9 +18,8 @@ layout: default
 * TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
 * TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA
 
-[TLS的密码套件]。
-
 ## HTTPS工作原理
+
 * [How HTTPS Secures Connections: What Every Web Dev Should Know]
 * And this article explain the crypto parts in SSL [How do the processes for digital certificates, signatures and ssl work]
 * And the standard file The Transport Layer Security(TLS) Protocol Version 1.2 [RFC 5246]
@@ -47,7 +28,7 @@ layout: default
 [salsa20]:<https://en.wikipedia.org/wiki/Salsa20>
 [Poly1305]:<https://en.wikipedia.org/wiki/Poly1305>
 [rfc7539]:<https://tools.ietf.org/html/rfc7539>
-[TLS的密码套件]:<https://www.iana.org/assignments/tls-parameters/tls-parameters.xhtml>
+[TLS密码套件]:<https://www.iana.org/assignments/tls-parameters/tls-parameters.xhtml>
 [How do the processes for digital certificates, signatures and ssl work]:<https://security.stackexchange.com/questions/7421/how-do-the-processes-for-digital-certificates-signatures-and-ssl-work>
 [How HTTPS Secures Connections: What Every Web Dev Should Know]:<https://blog.hartleybrody.com/https-certificates/>
 [RFC 5246]:<https://tools.ietf.org/html/rfc5246>
