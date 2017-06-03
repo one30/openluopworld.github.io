@@ -1,5 +1,3 @@
-### [阅读](./read/read.html)
-
 ### 2017
    * [TLS密码套件](./2017/tls.html)
    * [密码算法简介](./doc/cipher.pdf)
