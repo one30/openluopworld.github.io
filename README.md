@@ -1,4 +1,5 @@
 ### 2017
+   * [轻量级分组密码RECTANGLE](./doc/rectangle.pdf) <sub>pdf</sub>
    * [TLS密码套件](./2017/tls.html)
    * [密码算法简介](./doc/cipher.pdf)
    * [LATEX中使用Alpha引用方式](./2017/latex-alpha.html)
