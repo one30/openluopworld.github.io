@@ -18,45 +18,45 @@ layout: default
 
 别问我妹子是谁，我也不认识，^_^
 
-![dunhuang-0](./../images/menyuan/dunhuang-0.jpg?raw=true)
+![dunhuang-0](./../images/dunhuang/dunhuang-0.jpg?raw=true)
 
 能想象南方的孩子第一次见到沙漠的情景吗，就像北方的孩子第一次见到大海一样，心中那个激动的劲儿。
 
-![dunhuang-1](./../images/menyuan/dunhuang-1.jpg?raw=true)
+![dunhuang-1](./../images/dunhuang/dunhuang-1.jpg?raw=true)
 
 沙漠里温度较高，特别是7、8月份，一定要做好防晒准备（尤其是妹子），帽子、墨镜、纱巾等，而且纱巾可以防止沙吹到身上。我们是6月底到的，天气不是特别热，进沙漠的时候没有穿凉鞋，所以干脆就赤脚了，天气热的时候千万别赤脚哦。
 
-![dunhuang-2](./../images/menyuan/dunhuang-2.jpg?raw=true)
+![dunhuang-2](./../images/dunhuang/dunhuang-2.jpg?raw=true)
 
 刚上骆驼的队伍，看看装备。坐骆驼单独收费，100元1个人，会绕一大圈，1-2个小时左右。
 
-![dunhuang-3](./../images/menyuan/dunhuang-3.jpg?raw=true)
+![dunhuang-3](./../images/dunhuang/dunhuang-3.jpg?raw=true)
 
 远处就是市区。
 
-![dunhuang-4](./../images/menyuan/dunhuang-4.jpg?raw=true)
+![dunhuang-4](./../images/dunhuang/dunhuang-4.jpg?raw=true)
 
-![dunhuang-5](./../images/menyuan/dunhuang-5.jpg?raw=true)
+![dunhuang-5](./../images/dunhuang/dunhuang-5.jpg?raw=true)
 
 思考人生的小狗狗。
 
-![dunhuang-6](./../images/menyuan/dunhuang-6.jpg?raw=true)
+![dunhuang-6](./../images/dunhuang/dunhuang-6.jpg?raw=true)
 
 坐到一半的时候有个可以滑沙的地方，驼队向导会咨询是否愿意滑沙，需要自己走台阶先爬上去，大概20米高左右，然后坐滑沙下来。滑沙分为两种，一种是木板的，像下面妹子坐得这种，15元；另一种是沙垫的，25元。木板的速度可以自己控制，一个人单独滑，感觉比较爽；沙垫的是2-4个人一组，速度较快，在轨道上滑行。
 
-![dunhuang-7](./../images/menyuan/dunhuang-7.jpg?raw=true)
+![dunhuang-7](./../images/dunhuang/dunhuang-7.jpg?raw=true)
 
 哇偶，还有这种沙滩摩托，记得《花儿与少年》第二期中有过骑沙滩摩托的，感觉好爽哦。游客可以自行选择。
 
-![dunhuang-8](./../images/menyuan/dunhuang-8.jpg?raw=true)
+![dunhuang-8](./../images/dunhuang/dunhuang-8.jpg?raw=true)
 
 ### 月牙泉
 
 驼队会在夫妻柳附近停下，游客可以步行或做观光车月牙湖门口。月牙湖就像沙漠绿洲，听说从沙滩高出往下看整个湖面就像一轮弯弯的月亮。
 
-![dunhuang-9](./../images/menyuan/dunhuang-9.jpg?raw=true)
+![dunhuang-9](./../images/dunhuang/dunhuang-9.jpg?raw=true)
 
-![dunhuang-10](./../images/menyuan/dunhuang-10.jpg?raw=true)
+![dunhuang-10](./../images/dunhuang/dunhuang-10.jpg?raw=true)
 
 ### 莫高窟
 
@@ -68,11 +68,11 @@ layout: default
 
 莫高的参观会有专门的导游进行讲解，我们当时一位导游会讲8个左右的洞窟。由于参观的人比较多，所以不同的导游会讲解不同的石窟。
 
-![mogao-1](./../images/menyuan/mogao-1.jpg?raw=true)
+![mogao-1](./../images/dunhuang/mogao-1.jpg?raw=true)
 
-![mogao-2](./../images/menyuan/mogao-2.jpg?raw=true)
+![mogao-2](./../images/dunhuang/mogao-2.jpg?raw=true)
 
-![mogao-3](./../images/menyuan/mogao-3.jpg?raw=true)
+![mogao-3](./../images/dunhuang/mogao-3.jpg?raw=true)
 
 ### 交通
 
