@@ -6,7 +6,7 @@ layout: default
 
 2017.07.10
 
-<embed src="//music.163.com/style/swf/widget.swf?sid=34341360&type=2&auto=1&width=320&height=66" width="340" height="86"  allowNetworking="all"></embed>
+<embed src="//music.163.com/style/swf/widget.swf?sid=34341360&type=2&auto=1&width=320&height=66" width="340" height="86"  allowNetworking="all">
 
 6月下旬去的门源，当地居民说油菜才刚种下去，没有开花，只拍摄了下面的景象。想象遍地的油菜花，实在是个拍婚纱照的好地方。
 
