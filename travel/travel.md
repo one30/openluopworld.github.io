@@ -5,6 +5,6 @@ layout: default
 ### 西北
    * [门源油菜花](./menyuan.html) 
    * [张掖丹霞地貌](./zhangye.html)
-   * [敦煌莫高窟]()
+   * [敦煌莫高窟](./dunhuang.html)
    * [嘉峪关长城]()
    * [青海湖]()
