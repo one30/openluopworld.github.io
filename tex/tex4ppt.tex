@@ -1,0 +1,243 @@
+% The template is from
+% https://www.sharelatex.com/templates/presentations/mauclair's-leanprogress-beamer-theme
+
+% Modified by LuoPeng
+% 2017.05.18
+
+\documentclass[xcolor=svgnames,handout]{beamer}
+
+\usepackage[utf8]    {inputenc}
+\usepackage[T1]      {fontenc}
+\usepackage[english] {babel}
+
+\usepackage{amsmath,amsfonts,graphicx}
+\usepackage{beamerleanprogress}
+\usepackage{ctex} % for Chinese
+\usepackage{verbatim} % for multi line of comments
+
+
+\title
+  []% for sub title
+  {密码算法简介}
+
+\author
+  [罗鹏]
+  %{罗鹏\quad 张洁\quad 李光成\\刘明昊\quad 顾守仁}
+  {罗鹏}
+
+\date
+  {2017.01.01}
+
+\institute
+  {中国科学院信息工程研究所}
+
+
+\begin{document}
+
+\maketitle
+
+\section{大纲}
+\begin{frame}
+  {大纲}
+  \begin{itemize}
+    \item 对称密码算法 (私钥密码算法)
+	    \begin{itemize}
+	 	\item 分组密码 (Block Cipher)
+		\item 流密码 (Stream Cipher)
+		\item 工作模式 (Mode of Operation)
+		\item 密码杂凑函数 (Hash Function)
+		\item 消息认证码 (Message Authentication Code)
+		\item 认证加密 (Authenticated Encryption)
+	    \end{itemize}
+    \item 非对称密码算法 (公钥密码算法)
+	    \begin{itemize}
+	 	\item 密钥交换算法 (Key Exchange)
+		\item 公钥加密 (Public-Key Encryption)
+		\item 数字签名 (Digital Signature Algorithm)
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\section{分组密码}
+\begin{frame}
+  {分组密码 (Block Cipher)}
+  \begin{table}
+  	\begin{tabular}{cc}
+  		\begin{minipage}{.5\linewidth}
+  			经典分组密码
+  			\begin{itemize}
+  				\item \begin{alertenv}\textbf{DES}\end{alertenv}
+  				\item \begin{alertenv}\textbf{AES}\end{alertenv}
+  				\item \begin{alertenv}\textbf{Serpent}\end{alertenv}
+  				\item Twofish
+  				\item \begin{alertenv}\textbf{SM4}\end{alertenv}
+  				\item RC6
+  				\item GOST
+  				\item ...
+  			\end{itemize}
+  		\end{minipage}
+  		&
+  		\begin{minipage}{.5\linewidth}
+  			轻量级分组密码
+	  	    \begin{itemize}
+	  	    	\item HIGHT
+	  			\item \begin{alertenv}\textbf{PRESENT}\end{alertenv}\cite{bogdanov2007present}
+	  			\item LBlock
+	  			\item PRINCE
+	  			\item \begin{alertenv}\textbf{RECTANGLE}\end{alertenv}\cite{zhang2015rectangle}
+	  			\item \begin{alertenv}\textbf{SIMON}\end{alertenv}\cite{beaulieu2015simon}
+	  			\item SKINNY
+	  			\item ...
+	  		\end{itemize}
+  		\end{minipage}
+  	\end{tabular}
+  \end{table}
+\end{frame}
+
+\section{流密码}
+\begin{frame}
+	{流密码 (Stream Cipher)}
+	\begin{itemize}
+		\item RC4
+		\item Salsa20
+		\item ChaCha
+		\item ...
+	\end{itemize}
+\end{frame}
+
+\section{工作模式}
+\begin{frame}
+	{工作模式 (Mode of Operation)}
+	\begin{itemize}
+		\item ECB
+		\item \begin{alertenv}\textbf{CBC}\end{alertenv}
+		\item CFB
+		\item OFB
+		\item \begin{alertenv}\textbf{CTR}\end{alertenv}
+	\end{itemize}
+\end{frame}
+
+\section{密码杂凑函数}
+\begin{frame}
+	{密码杂凑函数 (Hash Function)}
+	\begin{itemize}
+		\item \begin{alertenv}\textbf{MD5}\end{alertenv}
+		\item \begin{alertenv}\textbf{SHA1}\end{alertenv}
+		\item \begin{alertenv}\textbf{SHA2}\end{alertenv}
+		\item \begin{alertenv}\textbf{SHA3}\end{alertenv}
+		\item BLAKE2
+		\item Gr{\o}stl
+		\item JH
+		\item \begin{alertenv}\textbf{SM3}\end{alertenv}
+		\item ...
+	\end{itemize}
+\end{frame}
+
+\section{消息认证码}
+\begin{frame}
+	{消息认证码 (Message Authentication Code)}
+	\begin{itemize}
+		\item CBC-MAC
+		\item \begin{alertenv}\textbf{HMAC}\end{alertenv}
+		\item OMAC
+		\item \begin{alertenv}\textbf{Poly1305}\end{alertenv}
+		\item DAA
+		\item ...
+	\end{itemize}
+\end{frame}
+
+\section{认证加密}
+\begin{frame}
+	{认证加密 (Authenticated Encryption)}
+    \begin{table}
+    	\begin{tabular}{cc}
+    		\begin{minipage}{.5\linewidth}
+				\begin{itemize}
+					\item CCM
+					\item EAX
+					\item \begin{alertenv}\textbf{GCM}\end{alertenv}
+					\item OCB
+					\item ...
+				\end{itemize}
+			\end{minipage}
+			\begin{minipage}{.5\linewidth}
+				Caesar Candidates
+			    \begin{itemize}
+					\item ACORN
+					\item Deoxys
+					\item PRIMATEs
+					\item SHELL
+					\item ...
+				\end{itemize}
+			\end{minipage}
+		\end{tabular}
+	\end{table}
+\end{frame}
+
+\section{密钥交换算法}
+\begin{frame}
+	{密钥交换算法 (Key Exchange)}
+	\begin{itemize}
+		\item Diffie–Hellman密钥交换，简称DH
+		\item 基于非对称密码算法
+		\begin{itemize}
+			\item Elliptic curve Diffie–Hellman (ECDH或者ECDHE)，基于ECC
+		\end{itemize}
+	    \item ...
+	\end{itemize}
+\end{frame}
+
+\section{公钥加密算法}
+\begin{frame}
+	{公钥加密 (Public-Key Encryption)}
+	\begin{itemize}
+		\item RSA
+		\item ECC
+		\item ...
+	\end{itemize}
+\end{frame}
+
+\section{数字签名}
+\begin{frame}
+	{数字签名 (Digital Signature Algorithm)}
+	数字签名都是通过非对称密码算法实现。
+	\begin{itemize}
+		\item RSA
+		\item Elliptic Curve Digital Signature Algorithm (ECDSA)，基于ECC
+		\item Edwards-curve Digital Signature Algorithm (EdDSA)
+		\item ...
+	\end{itemize}
+\end{frame}
+
+\begin{comment}
+\begin{frame}
+	{A Movie}
+	\begin{block}{Some block}
+		\begin{itemize}
+			\item Movies only seem to work in Adobe Reader
+			\item Movie file is not embedded, it must be on the computer
+		\end{itemize}
+	\end{block}
+	
+	\begin{exampleblock}{Some more block}
+		Movies only seem to work in Adobe Reader\par
+		Movie file is not embedded, it must be on the computer
+	\end{exampleblock}
+	
+	\begin{alertblock}{}
+		Some text in here.
+		\begin{itemize}
+			\item Movies only seem to work in Adobe Reader
+			\item Movie file is not embedded, it must be on the computer
+		\end{itemize}
+	\end{alertblock}
+\end{frame}
+\end{comment}
+
+\begin{frame}
+	\bibliographystyle{alpha}
+	\bibliography{cipher}
+\end{frame}
+
+\end{document}
+
