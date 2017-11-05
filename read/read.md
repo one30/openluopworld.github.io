@@ -7,11 +7,14 @@ layout: default
 ### 正在或准备阅读
 + 深入Linux内核架构
 + 摆渡人
-+ 奥黛丽赫本
 + 看见
 + HTTPS权威指南
 
 ### 2017下半年
++ 11月计划
+  - 奥黛丽赫本
+  - Android Security Internals An In-Depth Guide to Android s Security Architecture
+  - Protection Profile for Mobile Device Fundamentals
 + 有些路只能一个人走
 + Linux Shell命令行及脚本编程实例详解
 + 白夜行
