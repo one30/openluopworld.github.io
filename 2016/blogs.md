@@ -57,6 +57,7 @@ layout: default
     + [ISO 29192](https://www.iso.org/obp/ui/#iso:std:iso-iec:29192:-1:ed-1:v1:en)，推荐的轻量级密码算法
 
 ## Tools
+  * [Busca](https://busca.uol.com.br/)
   * Software
     + [BrowsingHistoryView](http://www.nirsoft.net/utils/browsing_history_view.html)
     + [Gurobi](http://www.gurobi.com)
