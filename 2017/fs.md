@@ -72,10 +72,11 @@ struct f2fs_inode {
 + iname: 文件名的最大长度，255字节
 + i_dir_level: 目录层次
 + i_addr[923]: 文件内容的指针（即文件内容所在inode的编号）
-  * 
-  * 
-  * 
-+ i_nid[5]:
+  * 每个元素对应一个data block的编号，其中存储的为文件内容（或目录项）
+  * 在允许内部扩展属性（[F2FS_INLINE_XATTR]）的情况下，最后50个原始（200字节）用于保存文件的扩展属性，因此实际只有873个原始用于保持data block地址，默认支持。
+  * 对于数据量很小的文件来说，全部采用间接存储的方式，每个文件都需要多消耗4k字节存储。因此Huajun Li增加了[inline data]选项，可以选择是否直接用这3488字节（=（873-1）x 2）来保持数据。
+  * 同理，对于目录项较少的目录，也可以通过[inline dir]选择是否支持直接存储目录项。
++ i_nid[5]:直接或间接保存真实数据的data block编号。2个直接保存地址，2个一级间接保存地址，1个二级间接保存地址。
 
 References
 
@@ -83,4 +84,6 @@ References
 
 [inode]:<https://en.wikipedia.org/wiki/Inode>
 [file descriptor]:<https://en.wikipedia.org/wiki/File_descriptor>
-
+[F2FS_INLINE_XATTR]:<https://lkml.org/lkml/2013/8/26/159>
+[inline data]:<https://lwn.net/Articles/573408/>
+[inline dir]:<https://www.mail-archive.com/linux-f2fs-devel@lists.sourceforge.net/msg01641.html>
