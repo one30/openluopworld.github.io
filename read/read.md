@@ -4,14 +4,15 @@ layout: default
 
 # 阅读
 
-### 正在或准备阅读
-+ 技术
-  - 深入Linux内核架构
-  - Android Security Internals An In-Depth Guide to Android s Security Architecture
-  - Protection Profile for Mobile Device Fundamentals
-+ 摆渡人
+### 2018年上半年
++ 操作系统原理
++ 深入Linux内核架构(ing)
++ 智能时代
++ 深度工作(Deep Work)
 
 ### 2017下半年
++ Android Security Internals An In-Depth Guide to Android s Security Architecture
++ Protection Profile for Mobile Device Fundamentals
 + 芳华
 + 看见
 + 孤独或类似的东西
