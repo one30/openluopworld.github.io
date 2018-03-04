@@ -5,7 +5,7 @@ layout: default
 # 阅读
 
 ### 2018年上半年
-+ 操作系统原理
++ 操作系统原理(ing)
 + 深入Linux内核架构(ing)
 + 智能时代
 + 深度工作(Deep Work)
