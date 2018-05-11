@@ -77,6 +77,9 @@ layout: default
     + IPV6 [东北大学](http://hdtv.neu6.edu.cn/), [北邮](https://tv.byr.cn/desktop/)
     + [Music for programming](http://musicforprogramming.net)
 
+## 图书购买
+  * [Book Depository](https://www.bookdepository.com/)
+
 
 ## Linkers
   * [免费的编程中文书籍索引](https://github.com/justjavac/free-programming-books-zh_CN)
