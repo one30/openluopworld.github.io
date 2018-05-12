@@ -5,8 +5,13 @@ layout: default
 # 阅读
 
 ### 2018年上半年
++ Android安全攻防权威指南
++ Android软件安全与逆向分析
++ Android安全技术揭秘与防范
 + 操作系统原理(ing)
 + 深入Linux内核架构(ing)
++ 少有人走的路1心智成熟的旅程
++ 少有人走的路3与心灵对话
 + 智能时代
 + 深度工作(Deep Work)
 
