@@ -121,6 +121,15 @@ git push
 git pull // 从远端分支取出更新版本，然后合并到本地分支中
 ```
 
+### 6. 回退
+
+远程回退或者下载后远程重新定位到某个节点的代码, [Cannot push to GitHub - keeps saying need merge](https://stackoverflow.com/questions/10298291/cannot-push-to-github-keeps-saying-need-merge)
+
+```sh
+git reset --hard <commit-id>
+git push -f origin <branch-name>
+```
+
 上面只给出了一些非常基础的Git命令，实际工作中需要不断根据应用需求学习...
 
 
