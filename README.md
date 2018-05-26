@@ -1,4 +1,5 @@
 ### 2018
+   * [linux一些提升效率的命令](./2018/linux-commands.html)
    * [魅族内核团队](http://kernel.meizu.com/)
    * [AES NEON implementation analysis](./2018/aes-neon.html)
 
