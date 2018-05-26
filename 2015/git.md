@@ -17,52 +17,52 @@ layout: default
 
 #### 1. 用户信息配置
 ```sh
-// 进入到本地目录
+# 进入到本地目录
 cd /home/zh/gitcodes
-// 配置用户信息，分别配置用户名和邮箱信息
+# 配置用户信息，分别配置用户名和邮箱信息
 git config --global user.name "name" //例如：git config --global user.name "amani"
 git config --global user.email "email" // 例如：git config --global user.email "amani@good.com"
 ```
 
 #### 2. 开发
 ```sh
-// 克隆远程项目
+# 克隆远程项目
 git clone https://git.oschina.net/luop/Test
 ```
 
 ```sh
-// 项目clone后保存在gitcodes目录下，要想进行相应的操作我们需要先进入到该目录。
+# 项目clone后保存在gitcodes目录下，要想进行相应的操作我们需要先进入到该目录。
 cd Test // Test即是远端项目的名字
 ```
 
 ```sh
-// 接下来便可以对文件做增加，删除，修改操作；完成后可以先使用diff命令查看具体修改的内容
-// 该命令将查看本次所有的改动，可以方便工程师了解所做的改动是否和自己预期的一致，这可以防止错误修改
-// 使用diff命令后可以通过q退出
+# 接下来便可以对文件做增加，删除，修改操作；完成后可以先使用diff命令查看具体修改的内容
+# 该命令将查看本次所有的改动，可以方便工程师了解所做的改动是否和自己预期的一致，这可以防止错误修改
+# 使用diff命令后可以通过q退出
 git diff
 ```
 
 ```sh
-// 提交本次修改
-// 提交修改到本地的仓库
+# 提交本次修改
+ 提交修改到本地的仓库
 git add --all
-// 查看本次修改的文件（包括修改的(modified)，增加的(added)，删除的(deleted)3种类别），但只给出文件名，没有具体修改细节；
+# 查看本次修改的文件（包括修改的(modified)，增加的(added)，删除的(deleted)3种类别），但只给出文件名，没有具体修改细节；
 git status
-// 提交本次改动给远端仓库，双引号中的内容是对本次提交做的简单说明，好的说明可以方便自己和组内其他成员了解所做的改动，这和代码注释的道理一样
+# 提交本次改动给远端仓库，双引号中的内容是对本次提交做的简单说明，好的说明可以方便自己和组内其他成员了解所做的改动，这和代码注释的道理一样
 git commit -m "commit information"
-// 正式提交，远端仓库的内容将会进行修改；需要输入用户名和密码
+# 正式提交，远端仓库的内容将会进行修改；需要输入用户名和密码
 git push
 ```
 
 #### 3. 查看版本历史
 ```sh
-// 可以查看当前分支的日志，即使用git commit向仓库提交新版本时附加的版本更新信息
+# 可以查看当前分支的日志，即使用git commit向仓库提交新版本时附加的版本更新信息
 git log 
-// 可以查看当前分支的每一个版本大致变动情况，平常不怎么用到
+# 可以查看当前分支的每一个版本大致变动情况，平常不怎么用到
 git log --stat --summary
-// versionId是版本号（可以使用完整的，较常见的是只使用前面部分字符），可以查看对应提交版本对项目更改的详细内容
+# versionId是版本号（可以使用完整的，较常见的是只使用前面部分字符），可以查看对应提交版本对项目更改的详细内容
 git show versionId
-// git diff也能实现同样的功能
+# git diff也能实现同样的功能
 git diff versionId
 ```
 ![gitdiff](http://1.lpxq.sinaapp.com/images/201508/20150820pic1.png)
@@ -106,7 +106,7 @@ git push origin --delete temp // temp为分支名
 
 ```sh
 git remote add temp_name git@github.com:username/projectname
-// 在某个分支下，比如master
+# 在某个分支下，比如master
 git pull temp_name master
 git push
 ```
@@ -128,6 +128,34 @@ git pull // 从远端分支取出更新版本，然后合并到本地分支中
 ```sh
 git reset --hard <commit-id>
 git push -f origin <branch-name>
+```
+
+### 7.修改分支名
+
++ 本地分支
+
+```sh
+# 修改指定分支
+git branch -m <oldbranch> <newbranch>
+# 修改当前分支名
+git branch -m <newbranch>
+```
+
++ 远程分支
+
+```sh
+# You can not directly rename a remote branch.
+# You have to delete it and then re-push it.
+
+# Renaming a branch
+# rename the local branch to the new name
+git branch -m <old_name> <new_name> 
+
+# delete the old branch on remote - where <remote> is eg. origin
+git push <remote> --delete old_name
+
+# push the new branch to remote         
+git push <remote> new_name
 ```
 
 上面只给出了一些非常基础的Git命令，实际工作中需要不断根据应用需求学习...
