@@ -4,6 +4,11 @@ layout: default
 
 # 好的博客网址
 2016.03.06
+2018.06.12
+
+## Android
+  * 小米工程师, android架构, Android 6.0 [Gityuan](http://gityuan.com/)
+  * [极客学院阿拉神龙](http://wiki.jikexueyuan.com/project/deep-android-v1/prepare.html), 基于Android 2.0, 定期有更新
 
 ## Blogs
   * 中文

@@ -3,6 +3,7 @@
    * [linux一些提升效率的命令](./2018/linux-commands.html)
    * [魅族内核团队](http://kernel.meizu.com/)
    * [AES NEON implementation analysis](./2018/aes-neon.html)
+   * [好的博客网址](./2018/blogs.html)
 
 ### 2017
    * [想学习的](./2017/things.html)
@@ -20,7 +21,6 @@
    * [面试问题小结](./2016/interview.html)
    * [RFID](./2016/rfid.html)
    * [轻量级分组密码算法简介](./2016/lightweight-block-cipher.html)
-   * [好的博客网址](./2016/blogs.html)
 
 ### 2015
    * [日常工作中用到的git命令](./2015/git.html)
