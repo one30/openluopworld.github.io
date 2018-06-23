@@ -1,4 +1,5 @@
 ### 2018
+   * [Kernel 内存管理](./2018/kernel-slab.html)
    * [收藏的一些Github项目](./2018/github-stars.html)
    * [linux一些提升效率的命令](./2018/linux-commands.html)
    * [魅族内核团队](http://kernel.meizu.com/)
