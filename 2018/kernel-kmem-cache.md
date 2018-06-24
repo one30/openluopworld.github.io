@@ -2,8 +2,29 @@
 layout: default
 ---
 
-## Kernel 内存管理之slab
+## Kernel 内存管理之kmem_cache奇旅
 2018.06.23
+
+|![kernel-memory](./../images/kernel-memory.jpg?raw=true)<br>奇幻旅行，图片来源：电影《圆梦巨人》|
+
+### 背景
+fscrypt_info中参数ci_essiv_tfm未初始化，导致在循环通过kmem_cache_alloc从高速缓存中获取数据时，拿到之前的脏数据，导致在通过crypto_free_cipher释放ci_essiv_tfm时出现PINIC。
+
+crypto_free_cipher<br>
+|-->crypto_cipher_tfm<br>
+|-->crypto_free_tfm<br>
+    |-->crypto_destory_tfm<br>
+	    |-->crypto_exit_ops<br>
+
+kmem_cache_free<br>
+|-->__cache_free<br>
+    |-->cpu_cache_get<br>
+	|-->kmemcheck_slab_free<br>
+	    |-->kmemcheck_mark_freed<br>
+	|-->ac_put_obj<br>
+	    |-->__ac_put_obj<br>
+
+>> kmemcheck_mark_freedARM平台不做任何处理，x86平台会调用mark_shadow方法对free中内存数据进行复写。
 
 ### Example
 ```c
