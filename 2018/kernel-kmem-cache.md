@@ -13,16 +13,16 @@ fscrypt_info中参数ci_essiv_tfm未初始化，导致在循环通过kmem_cache_
 crypto_free_cipher<br>
 |-->crypto_cipher_tfm<br>
 |-->crypto_free_tfm<br>
-    |-->crypto_destory_tfm<br>
-	    |-->crypto_exit_ops<br>
+&nbsp;&nbsp;|-->crypto_destory_tfm<br>
+&nbsp;&nbsp;&nbsp;&nbsp;|-->crypto_exit_ops<br>
 
 kmem_cache_free<br>
 |-->__cache_free<br>
-    |-->cpu_cache_get<br>
-	|-->kmemcheck_slab_free<br>
-	    |-->kmemcheck_mark_freed<br>
-	|-->ac_put_obj<br>
-	    |-->__ac_put_obj<br>
+&nbsp;&nbsp;|-->cpu_cache_get<br>
+&nbsp;&nbsp;|-->kmemcheck_slab_free<br>
+&nbsp;&nbsp;&nbsp;&nbsp;|-->kmemcheck_mark_freed<br>
+&nbsp;&nbsp;|-->ac_put_obj<br>
+&nbsp;&nbsp;&nbsp;&nbsp;|-->__ac_put_obj<br>
 
 >> kmemcheck_mark_freedARM平台不做任何处理，x86平台会调用mark_shadow方法对free中内存数据进行复写。
 
