@@ -1,4 +1,5 @@
 ### 2018
+   * 转载[在腾讯的八年，我的职业思考](https://yuguo.us/weblog/tencent-8-years/)
    * [白盒密码浅析](./2018/white-box-cryptography.html)
    * [Kernel 内存管理之kmem_cache](./2018/kernel-kmem-cache.html)
    * [收藏的一些Github项目](./2018/github-stars.html)
