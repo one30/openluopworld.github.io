@@ -10,13 +10,15 @@ The [inode] is a data structure in a Unix-style file system that describes a fil
 
 ![file descriptor and inode](./../images/fd_inode.png?raw=true)
 
-# f2fs
+# F2FS
 
 ### 文件系统布局
 
 ### inode信息
 
 下面的代码给出了f2fs文件系统inode在磁盘中的数据（需要注意和虚拟文件系统中数据的区别，虚拟文件系统中的数据比实际存储的数据要丰富），代码来自linux-4.13。
+
+虚拟文件系统中的inode信息不包括实际文件系统比如f2fs_inode中的数据，比如f2fs文件系统中的扩展属性数据，数据一级二级三级指针，目录的目录项等。因此当需要获取这些数据时，需要先找到该inode节点在内存中缓存的数据页page，在从page中去读取/写入数据。通过open系统调用打开一个文件时，并没有缓存数据项的内容，只是得到了一些属性数据（uid, gid, atime, ctime, size...）。
 
 ```C
 #define F2FS_NAME_LEN            255
@@ -77,6 +79,22 @@ struct f2fs_inode {
   * 对于数据量很小的文件来说，全部采用间接存储的方式，每个文件都需要多消耗4k字节存储。因此Huajun Li增加了[inline data]选项，可以选择是否直接用这3488字节（=（873-1）x 2）来保持数据。
   * 同理，对于目录项较少的目录，也可以通过[inline dir]选择是否支持直接存储目录项。
 + i_nid[5]:直接或间接保存真实数据的data block编号。2个直接保存地址，2个一级间接保存地址，1个二级间接保存地址。
+
+### Page
+
+```C
+// struct page只是一个数据量非常小的结构体，用于描述具体的物理内存中
+// 每个page（4096字节）的状态（是否在用，是否有锁，是否脏数据等）
+// blog.csdn.net/lcw_202/article/details/5956015
+static inline void *inline_xattr_addr(struct page *page)
+{
+	/* 根据page找到真实的物理页所对应的inode信息 */
+	struct f2fs_inode *ri = F2FS_INODE(page);
+
+	return (void *)&(ri->i_addr[DEF_ADDRS_PER_INODE -
+					F2FS_INLINE_XATTR_ADDRS]);
+}
+```
 
 References
 
