@@ -8,8 +8,6 @@ layout: default
 
 ### [梧桐山之三角梅](./wutongshan.html)，2018.04
 
-### [厦门](./xiamen.html)，2018.03
-
 ### 西北，2017.06
   * [整体路线](./xibei.html)
   * [门源油菜花](./menyuan.html) 
