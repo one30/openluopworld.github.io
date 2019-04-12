@@ -7,6 +7,7 @@ layout: default
 ## 1. 景点
 
 总体线路
+
 ![xianlu](./../images/xian/total_1.jpg?raw=true)
 
 ### 1.1 西安古城墙
